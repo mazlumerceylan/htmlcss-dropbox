@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: font-family: 'Nunito', sans-serif;;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  background-color: rgb(255 255 255);
+}
+
+
+header .menu-left,
+header .menu-right{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+header .menu-left a,
+header .menu-right a{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 25px;
+}
+
+header .menu-right .inizia{
+  background-color: rgb(1 97 255);
+  color: wheat;
+  padding: 5px;
+}
+
+header .menu-right .inizia a{
+  background-color: rgb(1 97 255);
+  color: wheat;
+  padding: 5px;
+}
+
+.jumbotron{
+  height: 500px;
+  background-color: red;
+}
+

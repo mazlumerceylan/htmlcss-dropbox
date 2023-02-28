@@ -5,9 +5,8 @@
 }
 
 body{
-  max-width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+  max-width: 100%;
 }
 
 
@@ -407,7 +406,7 @@ header .menu-right .inizia a{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 350px;
   background-color: rgb(180 208 231);
 }
@@ -421,4 +420,77 @@ header .menu-right .inizia a{
   text-decoration: none;
   padding: 10px;
   background-color: white;
+}
+
+
+.domandefrequentbox{
+  width: 70%;
+  height: 500px;
+  margin: 50px auto;
+}
+
+.domandefrequentbox ul{
+  list-style: none;
+}
+
+
+.domandefrequentbox ul li{
+  font-size: 20px;
+  margin: 30px auto;
+  padding: 30px 0;
+  border-top: 1px solid blue;
+}
+
+footer{
+  background-color: black;
+}
+
+footer .dropboxfootgen{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 500px;
+  margin: 20px auto;
+  background-color: black;
+}
+
+
+.dropboxfoot h3{
+  color: white;
+  margin: 50px 40px;
+  font-size: 25px;
+}
+
+.dropboxfoot ul li{
+  list-style: none;
+  color: white;
+  margin: 10px 40px;
+  font-size: 15px;
+}
+
+
+.dropboxfoot ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.lineefoot{
+  display: flex;
+  border: 1px solid white;
+  width: 10%;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.lenguage{
+  background-color: black;
+  color: white;
+  
+}
+
+
+.lenguage a{
+  text-decoration: none;
+  margin-left: 200px;
+  color: white;
 }

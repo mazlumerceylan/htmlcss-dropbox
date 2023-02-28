@@ -383,9 +383,6 @@ header .menu-right .inizia a{
 
 
 
-
-
-
 .cubesendecenter{
   width: 34%;
 }
@@ -403,4 +400,25 @@ header .menu-right .inizia a{
 .cubesright{
   width: 33%;
   background-color: red;
+}
+
+
+.portaazienda{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  background-color: rgb(180 208 231);
+}
+
+.portaazienda h1{
+  font-size: 50px;
+  width: 40%;
+}
+
+.portaazienda a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
 }

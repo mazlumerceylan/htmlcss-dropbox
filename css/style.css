@@ -220,9 +220,6 @@ header .menu-right .inizia a{
   list-style: none;
 }
 
-.boxes .box ul{
-
-}
 
 .boxes .box .salienti{
   font-size: 13px;
@@ -231,15 +228,72 @@ header .menu-right .inizia a{
 .boxes .box .salienti li{
   padding-top: 30px;
   padding-left: 20px;
+  
 }
 
 .underbox{
+  position: relative;
   width: 70%;
-  height: 100px;
-  margin: auto;
   margin: 50px auto;
   border: 1px solid blue;
 }
+
+.underbox .underboxh{
+  padding: 5px;
+}
+
+.underbox .lineunderbox{
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.underbox h1, p{
+  padding: 15px;
+}
+
+
+
+.underbox .underboxh{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.underbox a{
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 720px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 5px 40px;
+}
+
+
+.partnerbox{
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  
+}
+
+.partnerbox img{
+  width: 100%;
+}
+
+.partnerbox .textrgt{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.partnerbox .textrgt h1, p, a{
+  padding: 20px;
+}
+
+
 
 .titlebox{
   display: flex;

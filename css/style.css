@@ -342,6 +342,7 @@ header .menu-right .inizia a{
 .findpartner .boxinfo h3{
   text-align: center;
   padding: 20px;
+  font-size: 25px;
 }
 
 .titlebox500{
@@ -362,8 +363,44 @@ header .menu-right .inizia a{
 }
 
 .endcubes{
-  height: 300px;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  background-color: black;
 }
 
+.endcubes .cubesende{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 33%;
+}
+
+.endcubes .cubesende img{
+  width: 50%;
+  height: 50%;
+  padding: 50px;
+}
+
+
+
+
+
+
+.cubesendecenter{
+  width: 34%;
+}
+
+.cubesendecenter img{
+  width: 30%;
+  margin: 50px;
+}
+  
+.cubesendecenter p, span{
+  margin: 20px 20px;
+}
+
+
+.cubesright{
+  width: 33%;
+  background-color: red;
+}

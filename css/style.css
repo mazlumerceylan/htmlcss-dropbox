@@ -145,17 +145,92 @@ header .menu-right .inizia a{
   display: flex;
   flex-direction: column;
   width: 30%;
-  height: 500px;
   border: 2px solid blue;
 }
 
-.boxes .box h3{
-  height: 40px;
-  
+.boxes .box .lineeone{
+  margin-top: 10px;
+  border: 1px solid blue;
 }
 
-.lineeone{
+.boxes h3{
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.boxes h5{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+
+
+.boxes .box .monthprice{
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.boxes .box .details{
+  list-style: none;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.boxes .box .monthprice li{
+  padding: 5px 5px;
+}
+
+.boxes .box .details li{
+  padding-top: 25px;
+}
+
+.boxes .box .dayprove{
+  margin-top: 40px;
+}
+
+.boxes .box .dayprove a{
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.boxes .box span{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+
+.boxes .box .smallline{
   border: 1px solid blue;
+  width: 50px;
+}
+
+.boxes .box h4{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.boxes .box ul{
+  list-style: none;
+}
+
+.boxes .box ul{
+
+}
+
+.boxes .box .salienti{
+  font-size: 13px;
+}
+
+.boxes .box .salienti li{
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .underbox{

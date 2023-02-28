@@ -5,8 +5,11 @@
 }
 
 body{
-  font-family: font-family: 'Nunito', sans-serif;;
+  max-width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
+
 
 header{
   display: flex;
@@ -16,19 +19,29 @@ header{
 }
 
 
+
 header .menu-left,
 header .menu-right{
   display: flex;
   align-items: center;
-  padding: 15px;
-}
-
-header .menu-left a,
-header .menu-right a{
-  font-size: 20px;
-  text-decoration: none;
   padding: 25px;
 }
+
+header .menu-left ul,
+header .menu-right ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 20px;
+}
+
+header .menu-left ul li a,
+header .menu-right ul li a{
+  text-decoration: none;
+  padding: 20px;
+}
+
+
 
 header .menu-right .inizia{
   background-color: rgb(1 97 255);
@@ -38,12 +51,164 @@ header .menu-right .inizia{
 
 header .menu-right .inizia a{
   background-color: rgb(1 97 255);
-  color: wheat;
+  color: white;
   padding: 5px;
+  text-decoration: none;
 }
 
+
 .jumbotron{
+  position: relative;
+  height: 650px;
+  background-color: rgb(180 208 231);
+}
+
+.jumbotron img{
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 450px;
+  width: 50%;
+}
+
+
+.jumbotron h1{
+  position: absolute;
+  padding-left: 100px;
+  width: 85%;
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+.jumbotron .lefttext p{
+  position: absolute;
+  width: 30%;
+  padding-left: 100px;
+  padding-top: 270px;
+}
+
+.jumbotron  a{
+  position: absolute;
+  margin-top:420px;
+  margin-left: 100px;
+  width: 20%;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(1 97 255);
+  color: white;
+}
+
+.jumbotron .lefttext span{
+  position: absolute;
+  margin-top: 495px;
+  margin-left: 100px;
+}
+
+.jumbotron .lefttext i{
+  position: absolute;
+  margin-top: 560px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 50px auto;
+  background-color: white;
+}
+
+.entry h1{
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.entry .chose{
+  padding-top: 40px;
+}
+
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  
+}
+
+
+.boxes .box{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   height: 500px;
-  background-color: red;
+  border: 2px solid blue;
+}
+
+.boxes .box h3{
+  height: 40px;
+  
+}
+
+.lineeone{
+  border: 1px solid blue;
+}
+
+.underbox{
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  margin: 50px auto;
+  border: 1px solid blue;
+}
+
+.titlebox{
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin: 50px auto;
+}
+
+
+.findpartner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+
+.findpartner .boxinfo{
+  width: calc(100% / 3);
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.titlebox500{
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin: 100px auto;
+  font-size: 60px;
+}
+
+
+.scopridipiu{
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.endcubes{
+  height: 300px;
+  width: 100%;
+  background-color: black;
 }
 

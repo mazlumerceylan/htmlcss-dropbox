@@ -145,6 +145,7 @@ header .menu-right .inizia a{
   display: flex;
   flex-direction: column;
   width: 30%;
+
   border: 2px solid blue;
 }
 
@@ -272,7 +273,6 @@ header .menu-right .inizia a{
 
 .partnerbox{
   display: flex;
-  position: relative;
   width: 70%;
   margin: auto;
   
@@ -285,13 +285,22 @@ header .menu-right .inizia a{
 .partnerbox .textrgt{
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-left: 40px;
+  margin: 20px;
 }
 
-.partnerbox .textrgt h1, p, a{
+.partnerbox .textrgt h1, span{
   padding: 20px;
 }
+
+.partnerbox .textrgt a{
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
 
 
 
@@ -302,7 +311,9 @@ header .menu-right .inizia a{
   margin: 50px auto;
 }
 
-
+.findpartnertitle{
+  margin-top: 40px;
+}
 .findpartner{
   display: flex;
   flex-direction: row;
@@ -314,13 +325,28 @@ header .menu-right .inizia a{
 
 
 .findpartner .boxinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: calc(100% / 3);
-  height: 300px;
-  border: 1px solid blue;
+  
+}
+
+
+.findpartner .boxinfo img{
+  width: 200px;
+}
+
+
+.findpartner .boxinfo h3{
+  text-align: center;
+  padding: 20px;
 }
 
 .titlebox500{
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   width: 70%;
   margin: 100px auto;

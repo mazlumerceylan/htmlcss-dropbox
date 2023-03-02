@@ -4,19 +4,21 @@
   box-sizing: border-box;
 }
 
+
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  max-width: 100%;
 }
 
 
 header{
+  position: fixed;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   height: 75px;
+  width: 100%;
   background-color: rgb(255 255 255);
 }
-
 
 
 header .menu-left,
@@ -26,13 +28,15 @@ header .menu-right{
   padding: 25px;
 }
 
+
 header .menu-left ul,
 header .menu-right ul{
   display: flex;
   flex-direction: row;
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
 }
+
 
 header .menu-left ul li a,
 header .menu-right ul li a{
@@ -41,12 +45,12 @@ header .menu-right ul li a{
 }
 
 
-
 header .menu-right .inizia{
   background-color: rgb(1 97 255);
   color: wheat;
   padding: 5px;
 }
+
 
 header .menu-right .inizia a{
   background-color: rgb(1 97 255);
@@ -57,14 +61,14 @@ header .menu-right .inizia a{
 
 
 .jumbotron{
-  position: relative;
+  padding-top: 50px;
   height: 650px;
   background-color: rgb(180 208 231);
 }
 
+
 .jumbotron img{
-  position: absolute;
-  margin-top: 270px;
+  margin-top: 220px;
   margin-left: 450px;
   width: 50%;
 }
@@ -75,20 +79,23 @@ header .menu-right .inizia a{
   padding-left: 100px;
   width: 85%;
   padding-top: 50px;
-  font-size: 70px;
+  font-size: 60px;
 }
+
 
 .jumbotron .lefttext p{
   position: absolute;
   width: 30%;
-  padding-left: 100px;
-  padding-top: 270px;
+  padding-left: 75px;
+  padding-top: 180px;
 }
 
+
 .jumbotron  a{
+  display: inline-block;
   position: absolute;
-  margin-top:420px;
-  margin-left: 100px;
+  margin-top: 370px;
+  margin-left: 98px;
   width: 20%;
   padding: 5px;
   text-decoration: none;
@@ -98,15 +105,18 @@ header .menu-right .inizia a{
   color: white;
 }
 
+
 .jumbotron .lefttext span{
   position: absolute;
-  margin-top: 495px;
+  margin-top: 400px;
   margin-left: 100px;
+  padding-top: 10px;
 }
+
 
 .jumbotron .lefttext i{
   position: absolute;
-  margin-top: 560px;
+  margin-top: 500px;
   margin-left: 100px;
   font-size: 40px;
 }
@@ -120,10 +130,12 @@ header .menu-right .inizia a{
   background-color: white;
 }
 
+
 .entry h1{
   padding-top: 50px;
   font-size: 40px;
 }
+
 
 .entry .chose{
   padding-top: 40px;
@@ -136,7 +148,6 @@ header .menu-right .inizia a{
   justify-content: space-between;
   width: 70%;
   margin: auto;
-  
 }
 
 
@@ -147,16 +158,21 @@ header .menu-right .inizia a{
   border: 1px solid blue;
 }
 
+
 .boxes .box .lineeone{
-  margin-top: 10px;
-  border: 1px solid blue;
+  margin-top: 5px;
+  border: 0.5px solid blue;
 }
 
+
 .boxes h3{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   font-size: 20px;
 }
+
 
 .boxes h5{
   font-size: 25px;
@@ -165,12 +181,12 @@ header .menu-right .inizia a{
 }
 
 
-
 .boxes .box .monthprice{
   list-style: none;
   margin-top: 30px;
   margin-left: 20px;
 }
+
 
 .boxes .box .details{
   list-style: none;
@@ -178,9 +194,11 @@ header .menu-right .inizia a{
   margin-left: 20px;
 }
 
+
 .boxes .box .monthprice li{
   padding: 5px 5px;
 }
+
 
 .boxes .box .details li{
   padding-top: 25px;
@@ -191,7 +209,9 @@ header .menu-right .inizia a{
   margin-top: 40px;
 }
 
+
 .boxes .box .dayprove a{
+  display: inline-block;
   text-decoration: none;
   background-color: blue;
   color: white;
@@ -199,12 +219,11 @@ header .menu-right .inizia a{
   margin-left: 20px;
 }
 
+
 .boxes .box span{
   margin-top: 40px;
   margin-left: 20px;
 }
-
-
 
 
 .boxes .box h4{
@@ -212,6 +231,7 @@ header .menu-right .inizia a{
   margin-top: 40px;
   margin-left: 20px;
 }
+
 
 .boxes .box ul{
   list-style: none;
@@ -222,44 +242,53 @@ header .menu-right .inizia a{
   font-size: 13px;
 }
 
-.boxes .box .salienti li{
-  padding-top: 30px;
-  padding-left: 20px;
-  
+
+.boxes .box .salienti ul{
+  margin-bottom: 50px;
 }
 
+
+.boxes .box .salienti li{
+  padding: 20px 20px 20px 20px;
+}
+
+
 .underbox{
-  position: relative;
   width: 70%;
   margin: 50px auto;
   border: 1px solid blue;
 }
 
-.underbox .underboxh{
-  padding: 5px;
-}
-
-.underbox .lineunderbox{
-  width: 100%;
-  border: 1px solid blue;
-}
-
-.underbox h1, p{
-  padding: 15px;
-}
-
-
 
 .underbox .underboxh{
   font-size: 15px;
   text-align: center;
+  padding: 10px;
+}
+
+
+.underbox .lineunderbox{
+  width: 100%;
+  border: 0.5px solid blue;
+}
+
+
+.underbox .enterprise{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+
+.underbox p{
+  margin: 30px 20px;
 }
 
 
 .underbox a{
-  position: absolute;
-  margin-top: -140px;
-  margin-left: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   background-color: blue;
   color: white;
@@ -271,33 +300,33 @@ header .menu-right .inizia a{
   display: flex;
   width: 70%;
   margin: auto;
-  
 }
+
 
 .partnerbox img{
   width: 100%;
 }
 
+
 .partnerbox .textrgt{
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 20px ;
 }
 
-.partnerbox .textrgt h1, span{
-  padding: 20px;
+
+.partnerbox .textrgt h1, p{
+  margin: 30px;
 }
+
 
 .partnerbox .textrgt a{
   text-decoration: none;
   width: 150px;
   text-align: center;
   border: 1px solid black;
-  padding: 10px;
-  margin: 20px;
+  margin: 30px;
 }
-
-
 
 
 .titlebox{
@@ -307,16 +336,19 @@ header .menu-right .inizia a{
   margin: 50px auto;
 }
 
+
 .findpartnertitle{
   margin-top: 40px;
 }
+
+
 .findpartner{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 70%;
-  margin: auto;
+  margin: auto
 }
 
 
@@ -326,11 +358,11 @@ header .menu-right .inizia a{
   align-items: center;
   justify-content: center;
   width: calc(100% / 3);
-  
 }
 
 
 .findpartner .boxinfo img{
+  display: inline-block;
   width: 200px;
 }
 
@@ -340,6 +372,7 @@ header .menu-right .inizia a{
   padding: 20px;
   font-size: 25px;
 }
+
 
 .titlebox500{
   display: flex;
@@ -358,11 +391,13 @@ header .menu-right .inizia a{
   margin: 50px auto;
 }
 
+
 .endcubes{
   display: flex;
   flex-direction: row;
   width: 100%;
 }
+
 
 .endcubes .cubesende{
   display: flex;
@@ -371,40 +406,53 @@ header .menu-right .inizia a{
   width: 33%;
 }
 
+
 .endcubes .cubesende img{
   width: 50%;
   height: 50%;
   padding: 50px;
+  cursor: pointer;
 }
+
 
 #designit{
   background-color: rgb(162 210 155);
-  border: 5px solid white;
+  color: wheat;
+  border: 10px solid white;
+  filter: invert(10%) 
 }
+
 
 #arizonauni{
   background-color: rgb(98 9 43);
+  color: white;
+  filter: brightness(50) invert(100%);
 }
+
 
 #floridauni{
   background-color: rgb(0 147 206);
+  filter: brightness(100%) invert(100%) 
 }
+
 
 #topps{
   background-color: rgb(248 248 248);
+  filter: brightness(50) invert(100)  
 }
-
 
 
 .cubesendecenter{
   width: 34%;
 }
 
+
 .cubesendecenter img{
   width: 30%;
   margin: 50px;
 }
   
+
 .cubesendecenter p, span{
   margin: 20px 20px;
 }
@@ -415,22 +463,26 @@ header .menu-right .inizia a{
   background-color: red;
 }
 
+
 #relief{
   background-color: rgb(213 0 32);
 }
+
 
 #hearst{
   background-color: rgb(180 208 231);
 }
 
+
 #lonely{
   background-color: rgb(13 36 129);
 }
 
+
 #clear{
   background-color: rgb(255 216 48);
-  color: white;
 }
+
 
 .portaazienda{
   display: flex;
@@ -441,10 +493,12 @@ header .menu-right .inizia a{
   background-color: rgb(180 208 231);
 }
 
+
 .portaazienda h1{
   font-size: 50px;
   width: 40%;
 }
+
 
 .portaazienda a{
   text-decoration: none;
@@ -458,6 +512,7 @@ header .menu-right .inizia a{
   height: 500px;
   margin: 50px auto;
 }
+
 
 .domandefrequentbox ul{
   list-style: none;
@@ -476,9 +531,11 @@ header .menu-right .inizia a{
   text-decoration: none;
 }
 
+
 footer{
   background-color: black;
 }
+
 
 footer .dropboxfootgen{
   display: flex;
@@ -492,10 +549,12 @@ footer .dropboxfootgen{
 
 
 .dropboxfoot h3{
+  display: inline-block;
   color: white;
   margin: 50px 40px;
   font-size: 25px;
 }
+
 
 .dropboxfoot ul li{
   list-style: none;
@@ -506,9 +565,11 @@ footer .dropboxfootgen{
 
 
 .dropboxfoot ul li a{
+  display: inline block;
   text-decoration: none;
   color: white;
 }
+
 
 .lineefoot{
   display: flex;
@@ -518,10 +579,10 @@ footer .dropboxfootgen{
   margin-bottom: 30px;
 }
 
+
 .lenguage{
   background-color: black;
   color: white;
-  
 }
 
 
